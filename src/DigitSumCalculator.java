@@ -4,6 +4,7 @@ public class DigitSumCalculator {
             return 0;
         }
         return n % 10 + execute(n / 10);
+
     }
 
     public static void main(String[] args) {
